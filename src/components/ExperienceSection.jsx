@@ -8,7 +8,7 @@ const experiences = [
     date: "May 2025 – Present",
     type: "Intern",
     description:
-      "Worked on biomedical signal analysis and data interpretation.",
+      "Working on microfluidics and Lab-on-a-Chip systems in a biochemical research lab, focusing on fluid behavior at micro-scale and device development.",
   },
   {
     title: "SME - Physics",
@@ -16,7 +16,7 @@ const experiences = [
     date: "May 2025 – Present",
     type: "Content",
     description:
-      "Created and reviewed high-quality content for JEE/NEET Physics.",
+      "Working on JEE Physics doubt resolution and preparing accurate, high-quality solutions for student queries.",
   },
   {
     title: "JEE Mentor",
@@ -24,7 +24,7 @@ const experiences = [
     date: "Jun 2024 – May 2025",
     type: "Mentor",
     description:
-      "Mentored JEE aspirants with deep-dive physics sessions and problem-solving.",
+      "Mentored JEE 2024–25 aspirants through live doubt-solving sessions, shared question sets, and provided continuous academic guidance and support.",
   },
 ];
 
