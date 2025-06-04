@@ -1,0 +1,104 @@
+.section {
+  padding: 0 1rem 1rem 1rem;
+  /* background-color: #847878; */
+  margin-top: 0;
+}
+
+.heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  /* text-align: center; */
+  margin-bottom: 2.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.8rem;
+}
+
+.chipContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.chip {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+
+  /* Added for truncation */
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* You can adjust line count */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button {
+  align-self: flex-start;
+  background-color: transparent;
+  border: 1px solid #1976d2;
+  color: #1976d2;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #1976d2;
+  color: #fff;
+}

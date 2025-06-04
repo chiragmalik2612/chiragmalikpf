@@ -1,0 +1,104 @@
+.section {
+  padding: 1rem;
+  /* background-color: #333; */
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  /* text-align: center; */
+  margin-bottom: 2rem;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.skillsTable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  min-width: 320px;
+}
+
+.skillsTable th,
+.skillsTable td {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.skillsTable th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+.categoryCell {
+  font-weight: 600;
+  width: 30%;
+  white-space: nowrap;
+}
+
+.chipContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.chip {
+  padding: 0.4rem 0.75rem;
+  border-radius: 16px;
+  background-color: #e0e0e0;
+  font-size: 0.85rem;
+  color: #333;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.chip:hover {
+  background-color: #d5d5d5;
+}
+
+@media (max-width: 768px) {
+  .skillsTable {
+    border: none;
+  }
+
+  .skillsTable thead {
+    display: none;
+  }
+
+  .skillsTable,
+  .skillsTable tbody,
+  .skillsTable tr,
+  .skillsTable td {
+    display: block;
+    width: 96.5%;
+  }
+
+  .skillsTable tr {
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fafafa;
+    padding: 1rem;
+  }
+
+  .skillsTable td {
+    border: none;
+    padding: 0.5rem 0;
+  }
+
+  .categoryCell {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+
+  .skillsCell {
+    margin-top: 0.5rem;
+  }
+}

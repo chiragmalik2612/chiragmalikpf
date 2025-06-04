@@ -1,0 +1,113 @@
+.timelineWrapper {
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 0;
+  /* background: #996161; */
+}
+
+.heading {
+  /* text-align: center; */
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mainLine {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #1976d2;
+}
+
+.branch {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  position: relative;
+  /* padding-left: 10px; */
+}
+
+.branchLine {
+  flex-shrink: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #1976d2;
+  margin-left: 0;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  margin-left: 10px;
+  width: 100%;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.mentor {
+  background-color: #1976d2;
+}
+
+.intern {
+  background-color: #388e3c;
+}
+
+.content {
+  background-color: #868585;
+}
+
+.org {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.4rem;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 0.2rem;
+}
+
+.desc {
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+
+  .branchLine {
+    width: 20px;
+    margin-bottom: 0.5rem;
+  }
+}
