@@ -23,16 +23,17 @@
 
 .links a {
   text-decoration: none;
-  color: white;
-  background-color: #0077ff;
+  color: grey;
+  /* background-color: #0077ff; */
   padding: 0.5rem 1rem;
   border-radius: 6px;
+  border: 1px solid gray;
   font-weight: bold;
-  transition: background-color 0.2s ease;
+  transition: #fff 0.2s ease;
 }
 
 .links a:hover {
-  background-color: #005fcc;
+  background-color: #5ba7fd;
 }
 
 .section {

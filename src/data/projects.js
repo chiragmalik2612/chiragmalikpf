@@ -12,8 +12,8 @@ export const projects = [
       "RestAPI",
       "Cloudinary",
     ],
-    liveLink: "https://phyjeecs.live",
-    githubLink: "https://github.com/yourusername/phyjeecs",
+    liveLink: "https://phyjeecs.vercel.app/",
+    githubLink: "https://github.com/Abhi-shek26/PhyJEEcs",
     challenges:
       "Integrating performance tracking with chapter-wise filtering required custom backend design. Learned how to build scalable APIs and effective data structures for attempt tracking.",
   },
@@ -23,8 +23,8 @@ export const projects = [
     description:
       "This web application allows you to regularly record your moods and emotions, maintaining a comprehensive history to help you better understand and analyze your feelings over time. It also provides support for those who struggle with identifying and expressing emotions—a condition known as Alexithymia—by offering relatable options to help articulate what you’re experiencing.",
     techStack: ["React.js", "Firebase", "Bootstrap", "Chart.js"],
-    liveLink: "https://emood.live",
-    githubLink: "https://github.com/yourusername/emood",
+    liveLink: "#",
+    githubLink: "https://github.com/chiragmalik2612/EmOOd",
     challenges:
       "Designing an intuitive mood tracking UI was challenging. Learned how to use Chart.js effectively for visual analytics and how to structure emotional data in Firebase.",
   },
@@ -34,8 +34,8 @@ export const projects = [
     description:
       "A REST API to manage chapters, including listing, filtering, and admin upload. Includes Redis cache and rate limiter.",
     techStack: ["Node.js", "Express.js", "Bootstrap", "Redis", "MongoDB"],
-    liveLink: "https://emood.live",
-    githubLink: "https://github.com/yourusername/emood",
+    liveLink: "https://mgo-chapdashbe.onrender.com/",
+    githubLink: "https://github.com/chiragmalik2612/mgo-chapdashBE",
     challenges:
       "Designing an intuitive mood tracking UI was challenging. Learned how to use Chart.js effectively for visual analytics and how to structure emotional data in Firebase.",
   },
