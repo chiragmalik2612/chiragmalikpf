@@ -1,34 +1,12 @@
 import React from "react";
 import styles from "./ExperienceSection.module.css";
-
-const experiences = [
-  {
-    title: "Research Intern",
-    org: "IIT Delhi",
-    date: "May 2025 – Present",
-    type: "Intern",
-    description:
-      "Working on microfluidics and Lab-on-a-Chip systems in a biochemical research lab, focusing on fluid behavior at micro-scale and device development.",
-  },
-  {
-    title: "SME - Physics",
-    org: "Physics Wallah",
-    date: "May 2025 – Present",
-    type: "Content",
-    description:
-      "Working on JEE Physics doubt resolution and preparing accurate, high-quality solutions for student queries.",
-  },
-  {
-    title: "JEE Mentor",
-    org: "Physics Wallah",
-    date: "Jun 2024 – May 2025",
-    type: "Mentor",
-    description:
-      "Mentored JEE 2024–25 aspirants through live doubt-solving sessions, shared question sets, and provided continuous academic guidance and support.",
-  },
-];
+import { experiences } from "../data/experiences";
+// import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function ExperienceSection() {
+  // const navigate = useNavigate();
+
   return (
     <section className={styles.timelineWrapper}>
       <h2 className={styles.heading}>Experience</h2>
@@ -39,17 +17,13 @@ export default function ExperienceSection() {
             <div className={styles.card}>
               <div className={styles.titleRow}>
                 <span className={styles.title}>{item.title}</span>
-                {/* <span
-                  className={`${styles.badge} ${
-                    styles[item.type.toLowerCase()]
-                  }`}
-                >
-                  {item.type}
-                </span> */}
               </div>
               <div className={styles.org}>{item.org}</div>
               <div className={styles.date}>{item.date}</div>
               <p className={styles.desc}>{item.description}</p>
+              <Link to={`/experience/${item.slug}`} className={styles.viewLink}>
+                Read About My Experience →
+              </Link>
             </div>
           </div>
         ))}

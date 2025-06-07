@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import ExperienceSection from "./components/ExperienceSection";
@@ -6,15 +7,15 @@ import ProjectsSection from "./components/ProjectsSection";
 import SkillsSection from "./components/SkillsSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
-import "./App.css";
 import EducationSection from "./components/EducationSection";
+import ProjectDetail from "./components/ProjectDetail";
+import ExperienceDetail from "./components/ExperienceDetail";
 
-function App() {
+import "./App.css";
+
+function Home() {
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <div className="spacer" /> */}
-
       <main className="container">
         <HeroSection />
         <ExperienceSection />
@@ -23,7 +24,19 @@ function App() {
         <EducationSection />
         <ContactSection />
       </main>
+    </>
+  );
+}
 
+function App() {
+  return (
+    <>
+      {/* <Navbar /> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects/:slug" element={<ProjectDetail />} />
+        <Route path="/experience/:slug" element={<ExperienceDetail />} />
+      </Routes>
       {/* <Footer /> */}
     </>
   );

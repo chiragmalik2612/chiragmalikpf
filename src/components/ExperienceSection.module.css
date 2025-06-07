@@ -105,9 +105,23 @@
 
 /* Responsive */
 @media (max-width: 600px) {
-
   .branchLine {
     width: 20px;
     margin-bottom: 0.5rem;
   }
 }
+
+.viewLink {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.viewLink:hover {
+  color: #0f5bbd;
+  text-decoration: underline;
+}
+

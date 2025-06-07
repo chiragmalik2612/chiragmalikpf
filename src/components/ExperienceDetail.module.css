@@ -1,0 +1,45 @@
+/* src/pages/ExperienceDetail.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+  color: #333;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.org {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #1976d2;
+}
+
+.date,
+.type {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.section h3 {
+  font-size: 1.2rem;
+  color: #1976d2;
+  margin-bottom: 0.5rem;
+}
+
+.notFound {
+  padding: 2rem;
+  text-align: center;
+}

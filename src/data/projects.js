@@ -1,0 +1,42 @@
+export const projects = [
+  {
+    title: "PhyJEEcs",
+    slug: "phyjeecs",
+    description:
+      "PhyJEEcs is a web application designed to assist JEE aspirants in practicing Physics questions chapter-wise. It enables students to track their progress, improve problem-solving skills, and monitor performance through a structured and user-friendly interface. Users can attempt questions of varying difficulty, view their attempt history, and gain insights into their chapter-wise performance.",
+    techStack: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "RestAPI",
+      "Cloudinary",
+    ],
+    liveLink: "https://phyjeecs.live",
+    githubLink: "https://github.com/yourusername/phyjeecs",
+    challenges:
+      "Integrating performance tracking with chapter-wise filtering required custom backend design. Learned how to build scalable APIs and effective data structures for attempt tracking.",
+  },
+  {
+    title: "EmOOd",
+    slug: "emood",
+    description:
+      "This web application allows you to regularly record your moods and emotions, maintaining a comprehensive history to help you better understand and analyze your feelings over time. It also provides support for those who struggle with identifying and expressing emotions—a condition known as Alexithymia—by offering relatable options to help articulate what you’re experiencing.",
+    techStack: ["React.js", "Firebase", "Bootstrap", "Chart.js"],
+    liveLink: "https://emood.live",
+    githubLink: "https://github.com/yourusername/emood",
+    challenges:
+      "Designing an intuitive mood tracking UI was challenging. Learned how to use Chart.js effectively for visual analytics and how to structure emotional data in Firebase.",
+  },
+  {
+    title: "Chapters Dashboard Backend",
+    slug: "chapters-dashboard-backend",
+    description:
+      "A REST API to manage chapters, including listing, filtering, and admin upload. Includes Redis cache and rate limiter.",
+    techStack: ["Node.js", "Express.js", "Bootstrap", "Redis", "MongoDB"],
+    liveLink: "https://emood.live",
+    githubLink: "https://github.com/yourusername/emood",
+    challenges:
+      "Designing an intuitive mood tracking UI was challenging. Learned how to use Chart.js effectively for visual analytics and how to structure emotional data in Firebase.",
+  },
+];

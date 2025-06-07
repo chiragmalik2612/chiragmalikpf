@@ -1,30 +1,7 @@
 import React from "react";
 import styles from "./ProjectsSection.module.css";
 import { useNavigate } from "react-router-dom";
-
-const projects = [
-  {
-    title: "PhyJEEcs",
-    description:
-      "PhyJEEcs is a web application designed to assist JEE aspirants in practicing Physics questions chapter-wise. It enables students to track their progress, improve problem-solving skills, and monitor performance through a structured and user-friendly interface. Users can attempt questions of varying difficulty, view their attempt history, and gain insights into their chapter-wise performance.",
-    techStack: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "RestAPI",
-      "Cloudinary",
-    ],
-    slug: "phyjeecs",
-  },
-  {
-    title: "EmOOd",
-    description:
-      "This web application allows you to regularly record your moods and emotions, maintaining a comprehensive history to help you better understand and analyze your feelings over time. It also provides support for those who struggle with identifying and expressing emotions—a condition known as Alexithymia—by offering relatable options to help articulate what you’re experiencing.",
-    techStack: ["React.js", "Firebase", "Bootstrap", "Chart.js"],
-    slug: "emood",
-  },
-];
+import { projects } from "../data/projects";
 
 const ProjectsSection = () => {
   const navigate = useNavigate();
