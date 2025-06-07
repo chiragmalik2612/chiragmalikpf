@@ -14,8 +14,7 @@ export const projects = [
     ],
     liveLink: "https://phyjeecs.vercel.app/",
     githubLink: "https://github.com/Abhi-shek26/PhyJEEcs",
-    challenges:
-      "Integrating performance tracking with chapter-wise filtering required custom backend design. Learned how to build scalable APIs and effective data structures for attempt tracking.",
+    challenges: "",
   },
   {
     title: "EmOOd",
@@ -25,18 +24,16 @@ export const projects = [
     techStack: ["React.js", "Firebase", "Bootstrap", "Chart.js"],
     liveLink: "#",
     githubLink: "https://github.com/chiragmalik2612/EmOOd",
-    challenges:
-      "Designing an intuitive mood tracking UI was challenging. Learned how to use Chart.js effectively for visual analytics and how to structure emotional data in Firebase.",
+    challenges: "",
   },
   {
-    title: "Chapters Dashboard Backend",
+    title: "Chapters' Dashboard",
     slug: "chapters-dashboard-backend",
     description:
       "A REST API to manage chapters, including listing, filtering, and admin upload. Includes Redis cache and rate limiter.",
     techStack: ["Node.js", "Express.js", "Bootstrap", "Redis", "MongoDB"],
     liveLink: "https://mgo-chapdashbe.onrender.com/",
     githubLink: "https://github.com/chiragmalik2612/mgo-chapdashBE",
-    challenges:
-      "Designing an intuitive mood tracking UI was challenging. Learned how to use Chart.js effectively for visual analytics and how to structure emotional data in Firebase.",
+    challenges: "",
   },
 ];

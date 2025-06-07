@@ -5,6 +5,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const ContactSection = () => (
   <section className={styles.section} id="contact">
+    <h1 className={styles.title}>Let's Connect</h1>
     <h2 className={styles.heading}>
       I'm always excited to connect, collaborate, or contribute to meaningful
       projects. Whether it's about technology, education, or an opportunity to

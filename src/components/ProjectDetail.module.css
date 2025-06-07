@@ -23,12 +23,12 @@
 
 .links a {
   text-decoration: none;
-  color: grey;
+  color: black;
   /* background-color: #0077ff; */
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.6rem;
   border-radius: 6px;
   border: 1px solid gray;
-  font-weight: bold;
+  /* font-weight: bold; */
   transition: #fff 0.2s ease;
 }
 
