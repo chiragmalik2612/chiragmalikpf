@@ -16,7 +16,7 @@ export default function ExperienceDetail() {
       <h1 className={styles.title}>{experience.title}</h1>
       <h2 className={styles.org}>{experience.org}</h2>
       <p className={styles.date}>{experience.date}</p>
-      <p className={styles.type}>{experience.type}</p>
+      {/* <p className={styles.type}>{experience.type}</p> */}
 
       <div className={styles.section}>
         <h3>Description</h3>

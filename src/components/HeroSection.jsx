@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className={styles.textContainer}>
         <h1 className={styles.heading}>Hi, I'm Chirag Malik</h1>
         <p className={styles.subheading} style={{ fontStyle: "italic" }}>
-          IIT BHU | Web Developer | Research Intern @IITDelhi | SME @PW | Ex-JEE
+          IIT BHU | Web Developer | Research Intern @IITDelhi | SME @PW | JEE
           Mentor @PW
         </p>
         <p className={styles.description}>

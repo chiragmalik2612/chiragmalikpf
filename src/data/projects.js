@@ -14,7 +14,7 @@ export const projects = [
     ],
     liveLink: "https://phyjeecs.vercel.app/",
     githubLink: "https://github.com/Abhi-shek26/PhyJEEcs",
-    challenges: "",
+    challenges: "will update soon ...",
   },
   {
     title: "EmOOd",
@@ -24,7 +24,7 @@ export const projects = [
     techStack: ["React.js", "Firebase", "Bootstrap", "Chart.js"],
     liveLink: "#",
     githubLink: "https://github.com/chiragmalik2612/EmOOd",
-    challenges: "",
+    challenges: "will update soon ...",
   },
   {
     title: "Chapters' Dashboard",
@@ -34,6 +34,6 @@ export const projects = [
     techStack: ["Node.js", "Express.js", "Bootstrap", "Redis", "MongoDB"],
     liveLink: "https://mgo-chapdashbe.onrender.com/",
     githubLink: "https://github.com/chiragmalik2612/mgo-chapdashBE",
-    challenges: "",
+    challenges: "will update soon ...",
   },
 ];
