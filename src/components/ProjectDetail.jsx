@@ -50,9 +50,9 @@ const ProjectDetail = () => {
         <p>{project.challenges}</p>
       </div>
 
-      <Link className={styles.backLink} to="/">
+{/*       <Link className={styles.backLink} to="/">
         ← Back to Projects
-      </Link>
+      </Link> */}
     </div>
   );
 };
