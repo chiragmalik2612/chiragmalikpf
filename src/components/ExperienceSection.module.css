@@ -23,7 +23,7 @@
   top: 0;
   bottom: 0;
   width: 4px;
-  background-color: #1976d2;
+  background-color: #adadad;
 }
 
 .branch {
@@ -38,7 +38,7 @@
   flex-shrink: 0;
   width: 50px;
   height: 2px;
-  background-color: #1976d2;
+  background-color: #adadad;
   margin-left: 0;
 }
 
