@@ -42,7 +42,7 @@ const ProjectDetail = () => {
 
       <div className={styles.section}>
         <h3>About</h3>
-        <p>{project.description}</p>
+        <p className={styles.para}>{project.description}</p>
       </div>
 
       <div className={styles.section}>

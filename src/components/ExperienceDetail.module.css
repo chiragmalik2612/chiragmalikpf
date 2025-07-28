@@ -34,7 +34,7 @@
 }
 
 .section h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #797979;
   margin-bottom: 0.5rem;
 }
@@ -42,4 +42,11 @@
 .notFound {
   padding: 2rem;
   text-align: center;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 2;
+  color: #444;
+  margin-top: 0.5rem;
 }

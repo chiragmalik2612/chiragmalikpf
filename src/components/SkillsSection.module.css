@@ -64,6 +64,7 @@
 @media (max-width: 768px) {
   .skillsTable {
     border: none;
+    /* background-color: springgreen; */
   }
 
   .skillsTable thead {
@@ -75,7 +76,7 @@
   .skillsTable tr,
   .skillsTable td {
     display: block;
-    width: 96.5%;
+    width: 95%;
   }
 
   .skillsTable tr {
@@ -83,7 +84,7 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #fafafa;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .skillsTable td {

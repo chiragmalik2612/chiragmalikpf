@@ -20,7 +20,7 @@ export default function ExperienceDetail() {
 
       <div className={styles.section}>
         <h3>Description</h3>
-        <p>{experience.detailedDescription}</p>
+        <p className={styles.description}>{experience.detailedDescription}</p>
       </div>
     </div>
   );

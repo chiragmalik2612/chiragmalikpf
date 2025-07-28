@@ -1,0 +1,30 @@
+.achievementsSection {
+  padding: 1rem;
+  max-width: 800px;
+  /* margin: 0 auto; */
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  /* text-align: center; */
+  color: #222;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  font-size: 1.1rem;
+  color: #333;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.listItem:last-child {
+  border-bottom: none;
+}

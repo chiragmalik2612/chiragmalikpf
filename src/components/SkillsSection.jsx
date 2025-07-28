@@ -3,7 +3,7 @@ import styles from "./SkillsSection.module.css";
 
 const skillData = [
   {
-    category: "💻 Tech Stack",
+    category: "Tech Stack",
     skills: [
       "HTML",
       "CSS",
@@ -23,7 +23,7 @@ const skillData = [
     ],
   },
   {
-    category: "🛠 Tools & Platforms",
+    category: "Tools & Platforms",
     skills: [
       "Figma",
       "Canva",
@@ -36,7 +36,7 @@ const skillData = [
     ],
   },
   {
-    category: "📚 Academic & Mentorship",
+    category: "Academic & Mentorship",
     skills: [
       "Teaching",
       "Doubt Solving",
@@ -45,7 +45,7 @@ const skillData = [
     ],
   },
   {
-    category: "🔬 Research & Lab",
+    category: "Research & Lab",
     skills: [
       "Lab-on-Chip",
       "Microscopy",

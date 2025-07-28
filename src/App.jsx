@@ -12,6 +12,7 @@ import ProjectDetail from "./components/ProjectDetail";
 import ExperienceDetail from "./components/ExperienceDetail";
 
 import "./App.css";
+import Achievements from "./components/Achievements";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
         <ProjectsSection />
         <SkillsSection />
         <EducationSection />
+        <Achievements />
         <ContactSection />
       </main>
     </>
