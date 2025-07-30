@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./HeroSection.module.css";
 import profilePic from "../assets/profile.jpg";
+import pfp from "../assets/pfp.jpg";
 
 const HeroSection = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
-        <img src={profilePic} alt="Chirag Malik" className={styles.avatar} />
+        <img src={pfp} alt="Chirag Malik" className={styles.avatar} />
       </div>
 
       <div className={styles.textContainer}>
