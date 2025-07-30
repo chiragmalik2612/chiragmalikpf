@@ -22,7 +22,7 @@ const HeroSection = () => {
         {/* Action Buttons */}
         <div className={styles.buttonGroup}>
           <a
-            href="https://drive.google.com/file/d/1xME9Fj76ImH1uyGTpzSvY7lqSdUab5FU/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1hC188BIdgznAflba1NIuaGeSx5QosOWi/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className={`${styles.buttonBase} ${styles.primaryBtn}`}
