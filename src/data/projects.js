@@ -17,16 +17,6 @@ export const projects = [
     challenges: "will update soon ...",
   },
   {
-    title: "EmOOd",
-    slug: "emood",
-    description:
-      "This web application allows you to regularly record your moods and emotions, maintaining a comprehensive history to help you better understand and analyze your feelings over time. It also provides support for those who struggle with identifying and expressing emotions - a condition known as Alexithymia ,by offering relatable options to help articulate what you’re experiencing.",
-    techStack: ["React.js", "Firebase", "Bootstrap", "Chart.js"],
-    liveLink: "https://github.com/chiragmalik2612/EmOOd",
-    githubLink: "https://github.com/chiragmalik2612/EmOOd",
-    challenges: "will update soon ...",
-  },
-  {
     title: "Chapters' Dashboard",
     slug: "chapters-dashboard-backend",
     description:
@@ -34,6 +24,16 @@ export const projects = [
     techStack: ["Node.js", "Express.js", "Bootstrap", "Redis", "MongoDB"],
     liveLink: "https://mgo-chapdashbe.onrender.com/",
     githubLink: "https://github.com/chiragmalik2612/mgo-chapdashBE",
+    challenges: "will update soon ...",
+  },
+  {
+    title: "EmOOd",
+    slug: "emood",
+    description:
+      "This web application allows you to regularly record your moods and emotions, maintaining a comprehensive history to help you better understand and analyze your feelings over time. It also provides support for those who struggle with identifying and expressing emotions - a condition known as Alexithymia ,by offering relatable options to help articulate what you’re experiencing.",
+    techStack: ["React.js", "Firebase", "Bootstrap", "Chart.js"],
+    liveLink: "https://github.com/chiragmalik2612/EmOOd",
+    githubLink: "https://github.com/chiragmalik2612/EmOOd",
     challenges: "will update soon ...",
   },
 ];
