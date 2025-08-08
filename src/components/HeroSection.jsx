@@ -18,10 +18,7 @@ const HeroSection = () => {
           Mentor @PW
         </p>
         <p className={styles.description}>
-         I'm a full-stack web developer at IIT (BHU), Varanasi, with a passion for creating performant, user-friendly web applications. I am proficient in the MERN stack, which I apply to practical problem-solving and creating clean designs.
-         My journey has led me to a range of experiences, from mentoring students at Physics Wallah to conducting a research internship at IIT Delhi. These roles have given me a unique perspective on collaboration, mentorship, and applying technical skills to different domains. My adaptability and eagerness to learn new things are my key strengths.
-         I am constantly upskilling and exploring new technologies, always with an eye toward building meaningful solutions. I am actively looking for an SDE role where I can contribute to a dynamic team, tackle challenging problems, and continue to grow as a developer.</p>
-        {/* Action Buttons */}
+         I am a full-stack web developer and student at IIT (BHU), Varanasi, with a strong proficiency in the MERN stack. I focus on building performant and user-friendly web applications. My diverse experience, including mentor and SME roles at Physics Wallah and a research internship at IIT Delhi, has provided me with a unique perspective on collaboration and problem-solving across different domains. I am a quick learner, constantly upskilling, and eager to contribute my technical skills and adaptability to a dynamic team in an SDE role.{/* Action Buttons */}
         <div className={styles.buttonGroup}>
           <a
             href="https://drive.google.com/file/d/1hC188BIdgznAflba1NIuaGeSx5QosOWi/view?usp=drive_link"
