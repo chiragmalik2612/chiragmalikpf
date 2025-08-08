@@ -18,8 +18,8 @@ const HeroSection = () => {
           Mentor @PW
         </p>
         <p className={styles.description}>
-         I am a full-stack web developer and student at IIT (BHU), Varanasi, with a strong proficiency in the MERN stack. I focus on building performant and user-friendly web applications. My diverse experience, including mentor and SME roles at Physics Wallah and a research internship at IIT Delhi, has provided me with a unique perspective on collaboration and problem-solving across different domains. I am a quick learner, constantly upskilling, and eager to contribute my technical skills and adaptability to a dynamic team in an SDE role.{/* Action Buttons */}
-        <div className={styles.buttonGroup}>
+         I am a full-stack web developer and student at IIT (BHU), Varanasi, with a strong proficiency in the MERN stack. I focus on building performant and user-friendly web applications. My diverse experience, including mentor and SME roles at Physics Wallah and a research internship at IIT Delhi, has provided me with a unique perspective on collaboration and problem-solving across different domains. I am a quick learner, constantly upskilling, and eager to contribute my technical skills and adaptability to a dynamic team in an SDE role.
+          <div className={styles.buttonGroup}>
           <a
             href="https://drive.google.com/file/d/1hC188BIdgznAflba1NIuaGeSx5QosOWi/view?usp=drive_link"
             target="_blank"
