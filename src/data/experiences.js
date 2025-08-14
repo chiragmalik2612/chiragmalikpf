@@ -3,6 +3,7 @@ export const experiences = [
     title: "SME - Physics",
     slug: "sme-physics",
     org: "Physics Wallah",
+    orgLink: "https://www.linkedin.com/company/physicswallah/", 
     date: "May 2025 – Present",
     type: "Content",
     description:
@@ -14,6 +15,7 @@ export const experiences = [
     title: "Research Intern",
     slug: "research-intern",
     org: "IIT Delhi",
+    orgLink: "https://www.linkedin.com/school/iitdelhi/", 
     date: "May 2025 – July 2025",
     type: "Intern",
     description:
@@ -25,6 +27,7 @@ export const experiences = [
     title: "JEE Mentor",
     slug: "jee-mentor",
     org: "Physics Wallah",
+    orgLink: "https://www.linkedin.com/company/physicswallah/",
     date: "Jun 2024 – May 2025",
     type: "Mentor",
     description:

@@ -50,3 +50,12 @@
   color: #444;
   margin-top: 0.5rem;
 }
+
+.orgLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.orgLink:hover {
+  text-decoration: underline;
+}

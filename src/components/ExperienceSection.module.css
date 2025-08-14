@@ -125,3 +125,19 @@
   text-decoration: underline;
 }
 
+.org,
+.orgLink {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #555;
+  margin-top: 6px;
+}
+
+.orgLink {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.orgLink:hover {
+  color: #0ea5e9;
+}

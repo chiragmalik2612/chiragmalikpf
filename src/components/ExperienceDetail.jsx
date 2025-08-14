@@ -14,7 +14,16 @@ export default function ExperienceDetail() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>{experience.title}</h1>
-      <h2 className={styles.org}>{experience.org}</h2>
+      <h2 className={styles.org}>
+        <a
+          href={experience.orgLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.orgLink}
+        >
+          {experience.org}
+        </a>
+      </h2>
       <p className={styles.date}>{experience.date}</p>
       {/* <p className={styles.type}>{experience.type}</p> */}
 

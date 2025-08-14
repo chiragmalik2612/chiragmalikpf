@@ -18,7 +18,19 @@ export default function ExperienceSection() {
               <div className={styles.titleRow}>
                 <span className={styles.title}>{item.title}</span>
               </div>
-              <div className={styles.org}>{item.org}</div>
+              {item.orgLink ? (
+                <a
+                  href={item.orgLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.orgLink}
+                >
+                  {item.org}
+                </a>
+              ) : (
+                <div className={styles.org}>{item.org}</div>
+              )}
+
               <div className={styles.date}>{item.date}</div>
               <p className={styles.desc}>{item.description}</p>
               <Link to={`/experience/${item.slug}`} className={styles.viewLink}>
