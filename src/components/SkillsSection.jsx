@@ -5,8 +5,6 @@ const skillData = [
   {
     category: "Tech Stack",
     skills: [
-      "HTML",
-      "CSS",
       "JavaScript",
       "TypeScript",
       "React.js",
@@ -14,12 +12,16 @@ const skillData = [
       "Node.js",
       "Express.js",
       "MongoDB",
+      "MySQL",
+      "Docker",
       "Firebase",
       "Chart.js",
       "Tailwind CSS",
       "Bootstrap",
       "Material UI",
       "Cloudinary",
+      "HTML",
+      "CSS",
     ],
   },
   {
