@@ -13,6 +13,7 @@ import ExperienceDetail from "./components/ExperienceDetail";
 
 import "./App.css";
 import Achievements from "./components/Achievements";
+import ScrollToTop from "./ScrollToTop";
 
 function Home() {
   return (
@@ -34,6 +35,7 @@ function App() {
   return (
     <>
       {/* <Navbar /> */}
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/:slug" element={<ProjectDetail />} />
