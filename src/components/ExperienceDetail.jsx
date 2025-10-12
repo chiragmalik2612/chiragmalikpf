@@ -42,7 +42,7 @@ export default function ExperienceDetail() {
 
       {experience.images && experience.images.length > 0 && (
         <div className={styles.section}>
-          <h3>Memories & Pictures</h3>
+          <h3> Pictures</h3>
           <div className={styles.galleryGrid}>
             {experience.images.map((img, i) => (
               <img
