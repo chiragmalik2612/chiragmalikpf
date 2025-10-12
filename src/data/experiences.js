@@ -12,6 +12,11 @@ import PWJM5 from "../assets/images/PWJM5.png";
 import PWJM6 from "../assets/images/PWJM6.png";
 import PWJM7 from "../assets/images/PWJM7.png";
 import PWJM8 from "../assets/images/PWJM8.png";
+import Q1 from "../assets/images/Q1.png";
+import Q2 from "../assets/images/Q2.png"; 
+import Q3 from "../assets/images/Q3.png";
+import Q4 from "../assets/images/Q4.png";
+import Q5 from "../assets/images/Q5.png";
 
 export const experiences = [
   {
@@ -25,7 +30,7 @@ export const experiences = [
       "Working on JEE Physics doubt resolution and preparing accurate, high-quality solutions for student queries.",
     detailedDescription:
       "I am currently working as a Subject Matter Expert (Physics) at Physics Wallah, where I assist students in resolving their doubts related to Physics for competitive exams such as JEE and NEET. My role involves providing clear, accurate, and concept-based solutions in various formats, including text, audio, and image-based explanations, depending on the students’ requirements. I focus on simplifying complex concepts and presenting step-by-step solutions to ensure better understanding and retention. With a strong commitment to quality and responsiveness, I have maintained a ~93% student satisfaction rate, helping students strengthen their conceptual knowledge and improve their problem-solving skills.",
-    images: [],
+    images: [Q1, Q2, Q3, Q4, Q5],
   },
   {
     title: "Research Intern",
