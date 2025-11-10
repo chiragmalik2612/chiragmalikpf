@@ -20,16 +20,29 @@ import Q5 from "../assets/images/Q5.png";
 
 export const experiences = [
   {
+  title: "Physics Mentor",
+  slug: "physics-mentor",
+  org: "SciAstra",
+  orgLink: "https://www.linkedin.com/company/sciastra/",
+  date: "Nov 2025 – Present",
+  type: "Content",
+  description:
+    "Helping students clarify their doubts and strengthen their understanding of Physics concepts.",
+  detailedDescription:
+    "I am currently working as a Physics Mentor at SciAstra, where I assist students in resolving their doubts and improving their conceptual clarity in Physics. My work involves providing clear, accurate, and step-by-step explanations to help students grasp topics more effectively. I focus on simplifying complex ideas and ensuring students build a strong foundation in fundamental concepts.",
+  images: [],
+},
+  {
     title: "SME - Physics",
     slug: "sme-physics",
     org: "Physics Wallah",
     orgLink: "https://www.linkedin.com/company/physicswallah/",
-    date: "May 2025 – Present",
+    date: "May 2025 – Nov 2025",
     type: "Content",
     description:
-      "Working on JEE Physics doubt resolution and preparing accurate, high-quality solutions for student queries.",
+      "Worked on JEE Physics doubt resolution and prepared accurate, high-quality solutions for student queries.",
     detailedDescription:
-      "I am currently working as a Subject Matter Expert (Physics) at Physics Wallah, where I assist students in resolving their doubts related to Physics for competitive exams such as JEE and NEET. My role involves providing clear, accurate, and concept-based solutions in various formats, including text, audio, and image-based explanations, depending on the students’ requirements. I focus on simplifying complex concepts and presenting step-by-step solutions to ensure better understanding and retention. With a strong commitment to quality and responsiveness, I have maintained a ~93% student satisfaction rate, helping students strengthen their conceptual knowledge and improve their problem-solving skills.\n\n (Below are some sample solutions I provided to students during my tenure, demonstrating my approach to problem-solving and concept explanation.)",
+    "I worked as a Subject Matter Expert (Physics) at Physics Wallah, where I assisted students in resolving their doubts related to Physics for competitive exams such as JEE and NEET. My role involved providing clear, accurate, and concept-based solutions in various formats, including text, audio, and image-based explanations, depending on students’ requirements. I focused on simplifying complex concepts and presenting step-by-step solutions to ensure better understanding and retention. With a strong commitment to quality and responsiveness, I maintained a ~93% student satisfaction rate, helping students strengthen their conceptual knowledge and improve their problem-solving skills.",
     images: [Q1, Q2, Q3, Q4, Q5],
   },
   {

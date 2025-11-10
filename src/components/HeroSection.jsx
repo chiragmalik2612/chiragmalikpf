@@ -14,13 +14,23 @@ const HeroSection = () => {
       <div className={styles.textContainer}>
         <h1 className={styles.heading}>Hi, I'm Chirag Malik</h1>
         <p className={styles.subheading} style={{ fontStyle: "italic" }}>
-          IIT BHU | Web Developer | SME @PW | Research Intern'25 @IITDelhi  | ex-JEE
-          Mentor @PW
+          IIT BHU | Web Developer | Physics Mentor @SciAstra | Research Intern
+          (IIT Delhi '25) | ex-SME & JEE Mentor @Physics Wallah
         </p>
         <p className={styles.description}>
-         I am a full-stack web developer and student at IIT (BHU), Varanasi. I focus on building performant and user-friendly web applications. My diverse experience, including mentor and SME roles at Physics Wallah and a research internship at IIT Delhi, has provided me with a unique perspective on collaboration and problem-solving across different domains. I am a quick learner, constantly upskilling, and eager to contribute my technical skills and adaptability to a dynamic team in an SDE role.
-          </p>
-          <div className={styles.buttonGroup}>
+          I am a Full-Stack Web Developer and student at IIT (BHU), Varanasi,
+          passionate about leveraging technology to build efficient and
+          impactful digital solutions. My diverse experience across mentorship
+          and SME roles at Physics Wallah, a research internship at IIT Delhi,
+          and hands-on web development has shaped me into an adaptable
+          problem-solver who thrives in multidisciplinary environments. With a
+          deep interest in both technology and edtech, I enjoy creating products
+          that enhance learning and user experience. I’m a quick learner, always
+          exploring new tools and frameworks, and eager to contribute my
+          technical expertise, creativity, and collaborative mindset to a
+          dynamic team in a software development or edtech-focused role.
+        </p>
+        <div className={styles.buttonGroup}>
           <a
             href="https://drive.google.com/file/d/1MwkBolcZ3qpOu4DAgCoiSrUglkRvMW_T/view?usp=drive_link"
             target="_blank"
