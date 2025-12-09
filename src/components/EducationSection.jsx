@@ -24,17 +24,22 @@ export default function EducationSection() {
     <section className={styles.timelineWrapper} id="education">
       <h2 className={styles.heading}>Education</h2>
       <div className={styles.timeline}>
-        {educationData.map((item, index) => (
-          <div key={index} className={styles.branch}>
-            <div className={styles.branchLine}></div>
-            <div className={styles.card}>
-              <div className={styles.school}>{item.school}</div>
-              <div className={styles.level}>{item.level}</div>
-              <div className={styles.date}>{item.duration}</div>
-            </div>
-          </div>
-        ))}
         <div className={styles.mainLine}></div>
+        {educationData.map((item, index) => {
+          return (
+            <div 
+              key={index} 
+              className={`${styles.timelineItem} ${index % 2 === 0 ? styles.left : styles.right}`}
+            >
+              <div className={styles.node}></div>
+              <div className={styles.content}>
+                <div className={styles.dateLabel}>{item.duration}</div>
+                <div className={styles.school}>{item.school}</div>
+                <div className={styles.level}>{item.level}</div>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

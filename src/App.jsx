@@ -1,7 +1,8 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
+import AboutMe from "./components/AboutMe";
 import ExperienceSection from "./components/ExperienceSection";
 import ProjectsSection from "./components/ProjectsSection";
 import SkillsSection from "./components/SkillsSection";
@@ -20,6 +21,7 @@ function Home() {
     <>
       <main className="container">
         <HeroSection />
+        <AboutMe />
         <ExperienceSection />
         <ProjectsSection />
         <SkillsSection />
@@ -32,9 +34,12 @@ function Home() {
 }
 
 function App() {
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+
   return (
     <>
-      {/* <Navbar /> */}
+      {isHomePage && <Navbar />}
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />

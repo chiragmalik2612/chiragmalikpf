@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { experiences } from "../data/experiences";
 import styles from "./ExperienceDetail.module.css";
 
 export default function ExperienceDetail() {
   const { slug } = useParams();
+  const navigate = useNavigate();
   const experience = experiences.find((exp) => exp.slug === slug);
 
   const [selectedImage, setSelectedImage] = useState(null);
@@ -15,6 +16,9 @@ export default function ExperienceDetail() {
 
   return (
     <div className={styles.container}>
+      <button onClick={() => navigate("/")} className={styles.backButton}>
+        ← Back
+      </button>
       <h1 className={styles.title}>{experience.title}</h1>
       <h2 className={styles.org}>
         <a

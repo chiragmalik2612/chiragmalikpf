@@ -1,23 +1,29 @@
 import React from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { projects } from "../data/projects";
 import styles from "./ProjectDetail.module.css";
 
 const ProjectDetail = () => {
   const { slug } = useParams();
+  const navigate = useNavigate();
   const project = projects.find((p) => p.slug === slug);
 
   if (!project) {
     return (
       <div className={styles.notFound}>
         <h2>Project not found</h2>
-        <Link to="/">← Back to Projects</Link>
+        <button onClick={() => navigate("/")} className={styles.backButton}>
+          ← Back
+        </button>
       </div>
     );
   }
 
   return (
     <div className={styles.container}>
+      <button onClick={() => navigate("/")} className={styles.backButton}>
+        ← Back
+      </button>
       <h1 className={styles.title}>{project.title}</h1>
 
       <div className={styles.links}>

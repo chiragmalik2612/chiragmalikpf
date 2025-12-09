@@ -1,70 +1,121 @@
 .section {
   padding: 1rem;
-  /* background-color: #333; */
+  margin: 2.5rem auto 0 auto;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .heading {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 700;
-  /* text-align: center; */
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  color: #1a1a1a;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
 }
 
 .tableWrapper {
   overflow-x: auto;
+  border-radius: 12px;
+  background-color: transparent;
 }
 
 .skillsTable {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #ccc;
   min-width: 320px;
+  background-color: #ffffff;
 }
 
 .skillsTable th,
 .skillsTable td {
-  border: 1px solid #ccc;
-  padding: 1rem;
+  padding: 1.5rem 2rem;
   text-align: left;
-  vertical-align: top;
+  vertical-align: middle;
+  border-right: 1px solid #e5e7eb;
+}
+
+.skillsTable th:last-child,
+.skillsTable td:last-child {
+  border-right: none;
 }
 
 .skillsTable th {
-  background-color: #f0f0f0;
+  background-color: transparent;
   font-weight: 600;
+  color: #1a1a1a;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.skillsTable th:first-child {
+  width: 25%;
+}
+
+.skillsTable th:last-child {
+  width: 75%;
+}
+
+.skillsTable td {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.skillsTable tr:last-child td {
+  border-bottom: none;
 }
 
 .categoryCell {
   font-weight: 600;
-  width: 30%;
-  white-space: nowrap;
+  color: #1a1a1a;
+  font-size: 1rem;
+  vertical-align: middle;
 }
 
 .chipContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 0.5rem;
+  margin: 0;
+  align-items: center;
 }
 
 .chip {
-  padding: 0.4rem 0.75rem;
-  border-radius: 16px;
-  background-color: #e0e0e0;
-  font-size: 0.85rem;
-  color: #333;
+  padding: 0.375rem 0.75rem;
+  border-radius: 9999px;
+  background-color: #eff6ff;
+  font-size: 0.75rem;
+  color: #2563eb;
   display: inline-block;
-  transition: background-color 0.2s ease;
+  transition: all 0.2s ease;
+  border: 1px solid #dbeafe;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 .chip:hover {
-  background-color: #d5d5d5;
+  background-color: #dbeafe;
+  border-color: #bfdbfe;
+  color: #1d4ed8;
+  transform: translateY(-1px);
 }
 
 @media (max-width: 768px) {
+  .tableWrapper {
+    border: none;
+    background-color: transparent;
+  }
+
   .skillsTable {
     border: none;
-    /* background-color: springgreen; */
+    background-color: transparent;
   }
 
   .skillsTable thead {
@@ -76,30 +127,33 @@
   .skillsTable tr,
   .skillsTable td {
     display: block;
-    width: 95%;
+    width: 100%;
   }
 
   .skillsTable tr {
     margin-bottom: 1.5rem;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #fafafa;
-    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 1.25rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   }
 
   .skillsTable td {
     border: none;
-    padding: 0.5rem 0;
+    padding: 0;
   }
 
   .categoryCell {
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: #333;
-    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1a1a1a;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e5e7eb;
   }
 
   .skillsCell {
-    margin-top: 0.5rem;
+    margin-top: 0;
   }
 }

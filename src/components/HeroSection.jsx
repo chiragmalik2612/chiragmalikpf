@@ -12,23 +12,13 @@ const HeroSection = () => {
       </div>
 
       <div className={styles.textContainer}>
-        <h1 className={styles.heading}>Hi, I'm Chirag Malik</h1>
-        <p className={styles.subheading} style={{ fontStyle: "italic" }}>
-          IIT BHU | Web Developer | Physics Mentor @SciAstra | Research Intern
-          (IIT Delhi '25) | ex-SME & JEE Mentor @Physics Wallah
-        </p>
-        <p className={styles.description}>
-          I am a Full-Stack Web Developer and student at IIT (BHU), Varanasi,
-          passionate about leveraging technology to build efficient and
-          impactful digital solutions. My diverse experience across mentorship
-          and SME roles at Physics Wallah, a research internship at IIT Delhi,
-          and hands-on web development has shaped me into an adaptable
-          problem-solver who thrives in multidisciplinary environments. With a
-          deep interest in both technology and edtech, I enjoy creating products
-          that enhance learning and user experience. I’m a quick learner, always
-          exploring new tools and frameworks, and eager to contribute my
-          technical expertise, creativity, and collaborative mindset to a
-          dynamic team in a software development or edtech-focused role.
+        <h1 className={styles.heading}>
+          Hello, I am <span className={styles.nameHighlight}>Chirag</span>!
+        </h1>
+        <p className={styles.tagline}>
+          Full-Stack Web Developer focused on building clear and intuitive digital experiences.
+          <br />
+          Also a Physics Mentor who enjoys contributing to meaningful learning outcomes.
         </p>
         <div className={styles.buttonGroup}>
           <a
@@ -37,7 +27,7 @@ const HeroSection = () => {
             rel="noopener noreferrer"
             className={`${styles.buttonBase} ${styles.primaryBtn}`}
           >
-            View Resume
+            Resume
           </a>
 
           <button

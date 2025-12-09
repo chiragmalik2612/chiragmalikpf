@@ -8,38 +8,42 @@ export default function ExperienceSection() {
   // const navigate = useNavigate();
 
   return (
-    <section className={styles.timelineWrapper}>
+    <section className={styles.timelineWrapper} id="experience">
       <h2 className={styles.heading}>Experience</h2>
       <div className={styles.timeline}>
+        <div className={styles.mainLine}></div>
         {experiences.map((item, index) => (
-          <div key={index} className={styles.branch}>
-            <div className={styles.branchLine}></div>
-            <div className={styles.card}>
-              <div className={styles.titleRow}>
-                <span className={styles.title}>{item.title}</span>
+          <div 
+            key={index} 
+            className={`${styles.timelineItem} ${index % 2 === 0 ? styles.left : styles.right}`}
+          >
+            <div className={styles.node}></div>
+            <div className={styles.content}>
+              <div className={styles.dateLabel}>{item.date}</div>
+              <div className={styles.card}>
+                <div className={styles.titleRow}>
+                  <span className={styles.title}>{item.title}</span>
+                </div>
+                {item.orgLink ? (
+                  <a
+                    href={item.orgLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.orgLink}
+                  >
+                    {item.org}
+                  </a>
+                ) : (
+                  <div className={styles.org}>{item.org}</div>
+                )}
+                <p className={styles.desc}>{item.description}</p>
+                <Link to={`/experience/${item.slug}`} className={styles.viewLink}>
+                  Read About My Experience →
+                </Link>
               </div>
-              {item.orgLink ? (
-                <a
-                  href={item.orgLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.orgLink}
-                >
-                  {item.org}
-                </a>
-              ) : (
-                <div className={styles.org}>{item.org}</div>
-              )}
-
-              <div className={styles.date}>{item.date}</div>
-              <p className={styles.desc}>{item.description}</p>
-              <Link to={`/experience/${item.slug}`} className={styles.viewLink}>
-                Read About My Experience →
-              </Link>
             </div>
           </div>
         ))}
-        <div className={styles.mainLine}></div>
       </div>
     </section>
   );
