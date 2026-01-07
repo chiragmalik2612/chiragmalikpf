@@ -20,6 +20,19 @@ import Q5 from "../assets/images/Q5.png";
 
 export const experiences = [
   {
+  title: "Full Stack Web Developer",
+  slug: "full-stack-web-developer",
+  org: "AcadXL",
+  orgLink: "https://www.linkedin.com/company/acadxl09/",
+  date: "Nov 2025 – Jan 2026",
+  type: "Development",
+  description:
+    "Worked on building a complete online test portal with student and admin functionalities.",
+  detailedDescription:
+    "I worked as a Full Stack Web Developer at AcadXL, where I contributed to the development of a comprehensive online test portal for students. My work included implementing features that allow students to attempt tests, view detailed performance reports, and track their activity. On the admin side, I worked on question management, test creation, test series management, and test purchasing functionality. I also handled student activity tracking, report generation, and authentication flows, ensuring a smooth and secure experience for both students and administrators.",
+  images: [],
+},
+  {
   title: "Physics Mentor",
   slug: "physics-mentor",
   org: "SciAstra",
