@@ -6,11 +6,14 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 const ContactSection = () => (
   <section className={styles.section} id="contact">
     <h2 className={styles.title}>Let's Connect</h2>
+    
+    {/* REFRAMED TEXT: More confident, specific, and professional */}
     <p className={styles.description}>
-      I'm always excited to connect, collaborate, or contribute to meaningful
-      projects. Whether it's about technology, education, or an opportunity to
-      grow together, feel free to reach out. Let's build something impactful!
+      I am always open to discussing new opportunities, collaborating on scalable 
+      full-stack platforms, or geeking out over physics and biomedical research. 
+      My inbox is always open,let's build something impactful.
     </p>
+    
     <div className={styles.list}>
       <a 
         href="mailto:chiragmalik2612@email.com" 
@@ -19,8 +22,9 @@ const ContactSection = () => (
         <div className={styles.iconWrapper}>
           <MdEmail className={styles.icon} />
         </div>
-        <span className={styles.label}>Gmail</span>
+        <span className={styles.label}>Email</span>
       </a>
+      
       <a
         href="https://www.linkedin.com/in/chirag-malik-63ba44282/"
         target="_blank"
@@ -32,6 +36,7 @@ const ContactSection = () => (
         </div>
         <span className={styles.label}>LinkedIn</span>
       </a>
+      
       <a
         href="https://github.com/chiragmalik2612"
         target="_blank"

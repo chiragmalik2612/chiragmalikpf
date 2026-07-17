@@ -13,15 +13,15 @@ const navItems = [
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("about");
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      const offset = 150;
+      const offset = 150; 
 
       let current = "about";
       
-      // Check sections in reverse order to find the one currently in view
       for (let i = navItems.length - 1; i >= 0; i--) {
         const item = navItems[i];
         const section = document.getElementById(item.id);
@@ -45,9 +45,11 @@ const Navbar = () => {
 
   const handleNavClick = (e, id) => {
     e.preventDefault();
+    setIsMenuOpen(false); // Closes the mobile menu when a link is clicked
+    
     const section = document.getElementById(id);
     if (section) {
-      const offset = 80;
+      const offset = 80; 
       const sectionTop = section.offsetTop - offset;
       window.scrollTo({
         top: sectionTop,
@@ -56,10 +58,27 @@ const Navbar = () => {
     }
   };
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className={styles.navbar}>
       <div className={styles.toolbar}>
-        <nav className={styles.navItems}>
+        
+        {/* Hamburger Icon (Only visible on mobile) */}
+        <button 
+          className={`${styles.hamburger} ${isMenuOpen ? styles.open : ""}`} 
+          onClick={toggleMenu}
+          aria-label="Toggle navigation"
+        >
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+        </button>
+
+        {/* Navigation Items */}
+        <nav className={`${styles.navItems} ${isMenuOpen ? styles.showMenu : ""}`}>
           {navItems.map((item) => (
             <a
               key={item.id}

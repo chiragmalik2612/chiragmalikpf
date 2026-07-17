@@ -1,3 +1,5 @@
+/* src/pages/EducationSection.module.css */
+
 .timelineWrapper {
   padding: 1rem;
   margin: 2.5rem auto 0 auto;
@@ -8,8 +10,8 @@
 .heading {
   font-size: 2.25rem;
   margin-bottom: 3rem;
-  font-weight: 700;
-  color: #1a1a1a;
+  font-weight: 800; /* Unified pure black heading */
+  color: #000000;
   letter-spacing: -0.02em;
 }
 
@@ -32,7 +34,7 @@
   top: 0;
   bottom: 0;
   width: 2px;
-  background-color: #d1d5db;
+  background-color: #e2e8f0; /* Sharper, lighter structural line */
   transform: translateX(-50%);
 }
 
@@ -48,6 +50,11 @@
   margin-bottom: 4rem;
   display: flex;
   align-items: flex-start;
+}
+
+/* Removes the large gap under the last item */
+.timelineItem:last-child {
+  margin-bottom: 0;
 }
 
 .timelineItem.left {
@@ -68,7 +75,7 @@
 .node {
   position: absolute;
   left: 50%;
-  top: 0.5rem;
+  top: 0.25rem; /* Adjusted slightly to align with the text block */
   width: 16px;
   height: 16px;
   background-color: #2563eb;
@@ -89,6 +96,7 @@
 .content {
   width: calc(50% - 2rem);
   position: relative;
+  background-color: transparent;
 }
 
 .timelineItem.left .content {
@@ -103,7 +111,7 @@
   top: 0.75rem;
   width: 3rem;
   height: 2px;
-  background-color: #d1d5db;
+  background-color: #e2e8f0; /* Sharper connector line */
 }
 
 .timelineItem.right .content {
@@ -118,7 +126,7 @@
   top: 0.75rem;
   width: 3rem;
   height: 2px;
-  background-color: #d1d5db;
+  background-color: #e2e8f0; /* Sharper connector line */
 }
 
 @media (max-width: 768px) {
@@ -137,26 +145,36 @@
 
 .dateLabel {
   font-size: 0.875rem;
-  font-weight: 600;
-  color: #6b7280;
+  font-weight: 700;
+  color: #000000; /* Pure black */
   margin-bottom: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .school {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: #1a1a1a;
+  font-size: 1.25rem; /* Slightly larger */
+  font-weight: 700;
+  color: #2563eb; /* Brand blue to match links and draw the eye */
   margin-bottom: 0.5rem;
   letter-spacing: -0.01em;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 
 .level {
-  font-size: 0.9375rem;
-  color: #4b5563;
+  font-size: 1.05rem;
+  color: #000000; /* Pure black */
   margin-top: 0.25rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.6;
+}
+
+/* Mobile responsive typography */
+@media (max-width: 768px) {
+  .school {
+    font-size: 1.15rem;
+  }
+  .level {
+    font-size: 1rem;
+  }
 }

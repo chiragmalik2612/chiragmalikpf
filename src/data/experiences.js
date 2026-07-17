@@ -20,31 +20,62 @@ import Q5 from "../assets/images/Q5.png";
 
 export const experiences = [
   {
-  title: "Full Stack Web Developer",
-  slug: "full-stack-web-developer",
-  org: "AcadXL",
-  orgLink: "https://www.linkedin.com/company/acadxl09/",
-  date: "Nov 2025 – Jan 2026",
-  type: "Development",
-  description:
-    "Worked on building a complete online test portal with student and admin functionalities.",
-  detailedDescription:
-    "I worked as a Full Stack Web Developer at AcadXL, where I contributed to the development of a comprehensive online test portal for students. My work included implementing features that allow students to attempt tests, view detailed performance reports, and track their activity. On the admin side, I worked on question management, test creation, test series management, and test purchasing functionality. I also handled student activity tracking, report generation, and authentication flows, ensuring a smooth and secure experience for both students and administrators.",
-  images: [],
-},
+    title: "Research Intern",
+    slug: "research-intern-iit-roorkee",
+    org: "IIT Roorkee",
+    orgLink: "https://www.linkedin.com/school/indian-institute-of-technology-roorkee/",
+    date: "May 2026 – July 2026",
+    type: "Intern",
+    description: "Worked on a DRDO-sponsored project focusing on the downstream processing, purification, and hydrogel formulation of medical-grade collagen protein.",
+    detailedDescription: `
+      <p>I worked onsite as a Summer Research Intern at IIT Roorkee, contributing to a DRDO-sponsored research initiative. My primary project was titled <strong>'Evaluation of Extraction and Purification of Type 1 Collagen from Porcine Skin with Comparative Characterisation of Extracted and Re-Extracted Collagen'</strong>.</p>
+      <p>The objective was to optimize the extraction process and formulate medical-grade collagen hydrogels for biomedical applications. During this period, I gained hands-on experience with advanced protein purification and characterization protocols.</p>
+      <p><strong>Key Responsibilities & Laboratory Work:</strong></p>
+      <ul>
+        <li>Executed downstream processing and purification of collagen protein.</li>
+        <li>Conducted comparative characterization between primarily extracted and re-extracted collagen samples.</li>
+        <li>Handled structural and quantitative analysis to verify protein integrity and concentration.</li>
+      </ul>
+      <p>This role strengthened my wet-lab proficiency and gave me practical exposure to the rigorous standards required for medical-grade biomaterial development.</p>
+    `,
+    skills: ["Ion-exchange Chromatography", "SDS-PAGE", "Western Blot", "BCA Assay", "Protein Extraction", "CD Spectroscopy", "SEM Imaging", "Ultrafiltration"],
+    images: [],
+  },
   {
-  title: "Physics Mentor",
-  slug: "physics-mentor",
-  org: "SciAstra",
-  orgLink: "https://www.linkedin.com/company/sciastra/",
-  date: "Nov 2025 – Present",
-  type: "Content",
-  description:
-    "Helping students clarify their doubts and strengthen their understanding of Physics concepts.",
-  detailedDescription:
-    "I am currently working as a Physics Mentor at SciAstra, where I assist students in resolving their doubts and improving their conceptual clarity in Physics. My work involves providing clear, accurate, and step-by-step explanations to help students grasp topics more effectively. I focus on simplifying complex ideas and ensuring students build a strong foundation in fundamental concepts.",
-  images: [],
-},
+    title: "Full Stack Web Developer",
+    slug: "full-stack-web-developer",
+    org: "AcadXL",
+    orgLink: "https://www.linkedin.com/company/acadxl09/",
+    date: "Nov 2025 – Jan 2026",
+    type: "Development",
+    description: "Engineered a comprehensive online test portal featuring distinct student and administrator interfaces.",
+    detailedDescription: `
+      <p>I worked as a Full Stack Web Developer at AcadXL, building the core architecture for a comprehensive online testing platform. My focus was on delivering a secure, scalable, and user-friendly experience for both test-takers and administrators.</p>
+      <p><strong>Core Contributions:</strong></p>
+      <ul>
+        <li><strong>Student Interface:</strong> Implemented the testing interface, detailed performance dashboards, and activity tracking.</li>
+        <li><strong>Admin Dashboard:</strong> Engineered modules for question bank management, test series creation, role-based access control, and seamless payment flows for test purchases.</li>
+        <li><strong>Backend Architecture:</strong> Designed database schemas, integrated secure authentication flows, and ensured robust report generation.</li>
+      </ul>
+    `,
+    skills: ["Next.js","Firebase","Typescript"],
+    images: [],
+  },
+  {
+    title: "Physics Mentor",
+    slug: "physics-mentor",
+    org: "SciAstra",
+    orgLink: "https://www.linkedin.com/company/sciastra/",
+    date: "Nov 2025 – Present",
+    type: "Content",
+    description: "Mentoring students in advanced physics concepts and providing structured doubt resolution.",
+    detailedDescription: `
+      <p>Currently working as a Physics Mentor at SciAstra, I assist students in strengthening their conceptual foundations in Physics. My day-to-day involves breaking down complex mechanics, electromagnetism, and thermodynamics problems into accessible, step-by-step explanations.</p>
+      <p>Beyond just solving equations, I focus on the underlying physical principles, helping students develop an intuitive understanding of the subject to improve their independent problem-solving capabilities.</p>
+    `,
+    skills: ["Physics Mentorship", "Concept Simplification", "Problem Solving", "Technical Communication"],
+    images: [],
+  },
   {
     title: "SME - Physics",
     slug: "sme-physics",
@@ -52,24 +83,35 @@ export const experiences = [
     orgLink: "https://www.linkedin.com/company/physicswallah/",
     date: "May 2025 – Nov 2025",
     type: "Content",
-    description:
-      "Worked on JEE Physics doubt resolution and prepared accurate, high-quality solutions for student queries.",
-    detailedDescription:
-    "I worked as a Subject Matter Expert (Physics) at Physics Wallah, where I assisted students in resolving their doubts related to Physics for competitive exams such as JEE and NEET. My role involved providing clear, accurate, and concept-based solutions in various formats, including text, audio, and image-based explanations, depending on students’ requirements. I focused on simplifying complex concepts and presenting step-by-step solutions to ensure better understanding and retention. With a strong commitment to quality and responsiveness, I maintained a ~93% student satisfaction rate, helping students strengthen their conceptual knowledge and improve their problem-solving skills.",
+    description: "Provided high-quality, concept-driven doubt resolution for JEE and NEET aspirants, maintaining a ~93% satisfaction rate.",
+    detailedDescription: `
+      <p>As a Subject Matter Expert (Physics) at Physics Wallah, I facilitated doubt resolution for competitive exam aspirants (JEE and NEET). I delivered accurate, concept-based solutions using a mix of text, audio, and visual aids tailored to the student's learning style.</p>
+      <p>By focusing on the step-by-step logic rather than just the final answer, I helped students identify their conceptual gaps. I consistently maintained a <strong>student satisfaction rate of ~93%</strong>, managing high volumes of queries while prioritizing quality and accuracy.</p>
+    `,
+    skills: ["JEE/NEET Physics", "Doubt Resolution", "EdTech", "Pedagogy"],
     images: [Q1, Q2, Q3, Q4, Q5],
   },
   {
     title: "Research Intern",
-    slug: "research-intern",
+    slug: "research-intern-iit-delhi",
     org: "IIT Delhi",
     orgLink: "https://www.linkedin.com/school/iitdelhi/",
     date: "May 2025 – July 2025",
     type: "Intern",
-    description:
-      "Developed hands-on expertise in microfluidic and Lab-on-a-Chip systems by working on microscale fluid dynamics and contributing to the design, fabrication, and testing of microfluidic devices.",
-    detailedDescription:
-      "I had the opportunity to work as a Summer Research Intern at the BioMicrofluidics and Soft Matter Laboratory, Department of Biochemical Engineering and Biotechnology, Indian Institute of Technology Delhi. My project, titled “Development of an Integrated Lab-on-a-Chip Device for the Manipulation of Human Red Blood Cells Under an Electric Field Using Soft-Lithography Techniques”, revolved around the exciting intersection of microfluidics, soft matter physics, and biomedical engineering.\n\nThe aim of this project was to design and fabricate a microfluidic lab-on-chip platform capable of manipulating and studying red blood cell (RBC) deformation under externally applied electric fields. Such devices have applications in disease diagnostics, biophysics studies, and point-of-care biomedical devices.\n\nDuring the internship, I gained extensive hands-on experience in:\n\nMicrofabrication & Soft Lithography\n- Design and replication of microchannel molds using SU-8 photolithography.\n- Preparation and curing of PDMS (Polydimethylsiloxane) replicas.\n- Plasma bonding of PDMS with glass substrates to create sealed microfluidic devices.\n\nDevice Assembly & Experimental Setup\n- Integration of microelectrodes within microchannels to apply controlled electric fields.\n- Preparation of blood samples through RBC isolation and controlled dilution for experiments.\n- Assembly of the microfluidic device and real-time observation of RBCs under varying electric field strengths.\n\nVisualization & Data Analysis\n- Use of inverted optical microscopy for real-time monitoring of RBC behavior inside microchannels.\n- Recording and interpreting deformation patterns of RBCs under different electric field conditions.\n- Troubleshooting challenges such as bubble formation, channel leakage, and non-uniform electric field distribution.\n\nResearch & Communication Skills\n- Conducting literature surveys on electrorotation, dielectrophoresis, and microfluidic cell manipulation.\n- Preparing structured reports, maintaining detailed lab notebooks, and discussing results with research scholars.\n- Learning how to critically analyze experimental outcomes and compare them with theoretical predictions.\n\nThis internship gave me exposure not only to microfluidic technology and lab-on-chip device fabrication, but also to the practical challenges of biomedical research. I developed skills in experimental troubleshooting, problem-solving, and scientific communication. The project deepened my understanding of how microfluidic devices can act as powerful diagnostic and analytical tools, and strengthened my passion for pursuing research in biomedical device design and applied microfluidics.\n\n(Here, I will be including pictures of the microfluidic chip prototypes, the experimental setup with microscope and electrodes, and snapshots from the laboratory work to visually showcase the project journey.)",
-    images: [IITD1, IITD2, IITD3, IITD4, IITD5, IITD6],
+    description: "Designed and fabricated microfluidic Lab-on-a-Chip devices for manipulating human red blood cells using soft-lithography.",
+    detailedDescription: `
+      <p>I worked as a Summer Research Intern at the BioMicrofluidics and Soft Matter Laboratory, Department of Biochemical Engineering and Biotechnology, IIT Delhi. My project centered on the intersection of microfluidics, soft matter physics, and biomedical engineering.</p>
+      <p>Project Title: <strong>'Development of an Integrated Lab-on-a-Chip Device for the Manipulation of Human Red Blood Cells Under an Electric Field Using Soft-Lithography Techniques'</strong>.</p>
+      <p><strong>Key Hands-on Experience:</strong></p>
+      <ul>
+        <li><strong>Microfabrication & Soft Lithography:</strong> Designed microchannel molds using SU-8 photolithography, cured PDMS replicas, and utilized plasma bonding for sealed devices.</li>
+        <li><strong>Experimental Setup:</strong> Integrated microelectrodes, isolated RBCs from blood samples, and observed cellular manipulation in real-time under varying electric fields.</li>
+        <li><strong>Data Analysis:</strong> Used inverted optical microscopy to record deformation patterns, successfully troubleshooting channel leakage and non-uniform field distributions.</li>
+      </ul>
+      <p>This experience solidified my understanding of microfluidic diagnostic tools and honed my skills in experimental troubleshooting.</p>
+    `,
+    skills: ["Soft Lithography", "Microfabrication", "PDMS Bonding", "Microscopy", "Experimental Troubleshooting"],
+    images: [IITD1, IITD2, IITD3, IITD4, IITD5, IITD6], // Replace with your actual variables
   },
   {
     title: "JEE Mentor",
@@ -78,10 +120,19 @@ export const experiences = [
     orgLink: "https://www.linkedin.com/company/physicswallah/",
     date: "Jun 2024 – May 2025",
     type: "Mentor",
-    description:
-      "Mentored JEE 2024–25 aspirants through live doubt-solving sessions, shared question sets, and provided continuous academic guidance and support.",
-    detailedDescription:
-      "I had the enriching opportunity to work as a JEE Mentor at Physics Wallah, where I guided students from the Dropper Batch in their preparation journey for JEE 2025. This role gave me first-hand experience in not just academic mentoring but also in holistic student support, where strategy, motivation, and emotional resilience played as big a role as subject knowledge.\n\nMy responsibilities included:\n\nMentoring & Guidance\n- Conducting weekly live mentoring sessions to track academic progress, discuss exam strategies, and resolve collective doubts.\n- Organizing one-on-one personalized mentoring sessions, tailoring my approach to each student’s learning style, strengths, and weaknesses.\n- Preparing and sharing customized problem sets and revision schedules, focusing on high-yield topics and exam-relevant practice.\n\nAcademic Support\n- Helping students develop effective time-management strategies for balancing Physics, Chemistry, and Mathematics.\n- Conducting in-depth discussions on common problem-solving pitfalls and ways to build conceptual clarity.\n- Tracking test performances, identifying error patterns, and suggesting actionable improvements.\n\nEmotional & Motivational Guidance\n- Acting as a motivational anchor during moments of self-doubt and stress, ensuring students remained consistent and resilient.\n- Providing guidance on exam temperament, handling pressure, and maintaining confidence during test days.\n\nResults & Impact\n- Under my mentorship, several students achieved outstanding results:\n  - 3 students scored 98+ percentile in JEE Mains.\n  - 5 students scored 95+ percentile in JEE Mains.\n  - 2 students secured ranks around 6,000 and 8,000 in JEE Advanced, earning admissions into IITs.\n\nThis journey gave me valuable skills in:\n- Student mentorship & doubt resolution\n- Academic strategy-building for competitive exams\n- Personalized coaching and adaptive teaching methods\n- Motivation and stress management for students in high-pressure environments\n\nMost importantly, this experience showed me how effective mentorship can transform a student’s preparation journey , not only in terms of exam success but also in helping them grow into confident and disciplined learners.\n\n(Here, I will be including pictures from live sessions and screenshots of feedback/testimonials from students to visually showcase this mentoring journey.)",
-    images: [PWJM1, PWJM2, PWJM3, PWJM4, PWJM5, PWJM6, PWJM7, PWJM8],
-  },
+    description: "Mentored a cohort of JEE aspirants through academic strategy formulation, live sessions, and personalized performance tracking.",
+    detailedDescription: `
+      <p>As a JEE Mentor at Physics Wallah, I guided students from the Dropper Batch preparing for JEE 2025. This role required balancing academic instruction with strategic planning and emotional support.</p>
+      <p><strong>My responsibilities included:</strong></p>
+      <ul>
+        <li>Conducting weekly live mentoring sessions to discuss test strategies and track collective progress.</li>
+        <li>Providing one-on-one coaching to tailor study plans to individual strengths and weaknesses.</li>
+        <li>Analyzing test performances to identify error patterns and optimize time management across Physics, Chemistry, and Mathematics.</li>
+      </ul>
+      <p><strong>Results:</strong></p>
+      <p>Under my direct mentorship, multiple students achieved high percentiles, including <strong>three students scoring 98+ percentile</strong> in JEE Mains, and <strong>two securing ranks under 8,000 in JEE Advanced</strong>, earning admission into IITs.</p>
+    `,
+    skills: ["Academic Strategy", "Performance Analytics", "Student Mentorship", "Public Speaking"],
+    images: [PWJM1, PWJM2, PWJM3, PWJM4, PWJM5, PWJM6, PWJM7, PWJM8], // Replace with your actual variables
+  }
 ];

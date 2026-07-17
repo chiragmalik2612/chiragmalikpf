@@ -1,6 +1,8 @@
+/* src/pages/ContactSection.module.css */
+
 .section {
   padding: 1rem;
-  margin: 2.5rem auto 6rem auto;
+  margin: 4rem auto 6rem auto;
   max-width: 1200px;
   width: 100%;
   text-align: center;
@@ -8,41 +10,41 @@
 
 .title {
   font-size: 2.25rem;
-  font-weight: 700;
+  font-weight: 800; /* Unified pure black heading */
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #1a1a1a;
+  color: #000000;
   letter-spacing: -0.02em;
 }
 
 @media (min-width: 768px) {
   .title {
     font-size: 2.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
 
 .description {
-  font-size: 1.0625rem;
+  font-size: 1.05rem;
   font-weight: 400;
   text-align: center;
-  margin: 0 auto 3rem auto;
-  color: #4b5563;
-  max-width: 700px;
-  line-height: 1.75;
+  margin: 0 auto 3.5rem auto;
+  color: #000000; /* High contrast readability */
+  max-width: 650px; /* Constrained for better reading length */
+  line-height: 1.8;
+  letter-spacing: 0.01em;
 }
 
 @media (min-width: 600px) {
   .description {
     font-size: 1.125rem;
-    line-height: 1.8;
   }
 }
 
 .list {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem; /* Increased gap for breathing room */
   flex-wrap: wrap;
   align-items: center;
   max-width: 800px;
@@ -56,74 +58,73 @@
   gap: 1rem;
   padding: 0;
   text-decoration: none;
-  color: #1a1a1a;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   min-width: 100px;
 }
 
-.item:hover {
-  transform: translateY(-2px);
-}
-
+/* Base state matched to your sleek indigo chips */
 .iconWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 64px;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
-  background-color: #eff6ff;
-  transition: all 0.3s ease;
-}
-
-.item:hover .iconWrapper {
-  background-color: #2563eb;
-  transform: scale(1.05);
+  background-color: #eef2ff;
+  border: 1px solid #c7d2fe;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 .icon {
   font-size: 2rem;
-  color: #2563eb;
+  color: #4338ca; /* Deep indigo icon */
   transition: all 0.3s ease;
 }
 
-.item:hover .icon {
-  color: #ffffff;
-  transform: scale(1.1);
-}
-
 .label {
-  font-weight: 500;
-  font-size: 1rem;
-  color: #1a1a1a;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #000000; /* Pure black text */
   transition: color 0.2s ease;
 }
 
-.item:hover .label {
-  color: #2563eb;
+/* Hover effects */
+.item:hover .iconWrapper {
+  background-color: #2563eb; /* Snaps to primary brand blue */
+  border-color: #2563eb;
+  transform: translateY(-6px); /* Clean upward lift */
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.25);
 }
 
+.item:hover .icon {
+  color: #ffffff; /* Icon turns white on hover */
+}
+
+.item:hover .label {
+  color: #2563eb; /* Label turns blue */
+}
+
+/* Mobile responsive adjustments */
 @media (max-width: 600px) {
   .list {
     gap: 1.5rem;
   }
 
   .item {
-    padding: 0;
     min-width: 80px;
   }
 
   .iconWrapper {
-    width: 56px;
-    height: 56px;
+    width: 60px;
+    height: 60px;
   }
 
   .icon {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .label {
-    font-size: 0.9375rem;
+    font-size: 0.95rem;
   }
 }

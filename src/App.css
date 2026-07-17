@@ -4,7 +4,8 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* Updated to use Inter as the primary font */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,15 +15,24 @@ body {
   line-height: 1.6;
 }
 
+/* Ensure buttons, inputs, and links inherit the new font */
+button, input, textarea, select {
+  font-family: inherit;
+}
+
+/* Update this in App.css */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 6.5rem 2rem 4rem 2rem;
+  /* Changed top padding from 6.5rem to 5rem */
+  padding: 5rem 2rem 4rem 2rem; 
 }
 
 @media (max-width: 768px) {
   .container {
-    padding: 5.5rem 1.5rem 3rem 1.5rem;
+    /* Changed top padding from 5.5rem to 4.5rem for mobile */
+    padding: 4.5rem 1.5rem 3rem 1.5rem; 
   }
 }
 

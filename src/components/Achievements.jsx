@@ -7,61 +7,46 @@ const Achievements = () => {
     {
       title: "JEE Mains Qualified",
       icon: FaTrophy,
-      description: "JEE Mains Qualified (2022 and 2023)",
-      color: "#a855f7", // purple
-      bgColor: "#f3e8ff" // light purple background
+      description: "Successfully cleared in both 2022 and 2023.",
+      color: "#8b5cf6", // Purple accent
     },
     {
       title: "JEE Advanced Qualified",
       icon: FaMedal,
-      description: "JEE Advanced Qualified (2023)",
-      color: "#d97706", // brown
-      bgColor: "#fef3c7" // light brown background
+      description: "Successfully cleared in 2023, securing admission to IIT (BHU).",
+      color: "#d97706", // Amber/Gold accent
     },
     {
       title: "PRMO Qualified",
       icon: FaAward,
-      description: "2-times PRMO (Pre-Regional Mathematics Olympiad) Qualified (2017 and 2019)",
-      color: "#14b8a6", // teal
-      bgColor: "#ccfbf1" // light teal background
+      description: "Two-time Pre-Regional Mathematics Olympiad Qualifier (2017 and 2019).",
+      color: "#0d9488", // Teal accent
     }
   ];
 
   return (
-    <section className={styles.achievementsSection} id="achievements">
+    <section className={styles.section} id="achievements">
       <h2 className={styles.heading}>Achievements</h2>
-      <div className={styles.timeline}>
-        <div className={styles.timelineContainer}>
-          {achievements.map((achievement, index) => {
-            const IconComponent = achievement.icon;
-            return (
-              <div key={index} className={styles.timelineItem}>
-                <div 
-                  className={styles.card} 
-                  style={{ 
-                    backgroundColor: achievement.bgColor
-                  }}
-                >
-                  <div 
-                    className={styles.iconCircle} 
-                    style={{ backgroundColor: achievement.color }}
-                  >
-                    <IconComponent className={styles.icon} />
-                  </div>
-                  <h3 
-                    className={styles.title} 
-                    style={{ color: achievement.color }}
-                  >
-                    {achievement.title}
-                  </h3>
-                  <p className={styles.description}>
-                    {achievement.description}
-                  </p>
-                </div>
+      <div className={styles.grid}>
+        {achievements.map((achievement, index) => {
+          const IconComponent = achievement.icon;
+          return (
+            <div key={index} className={styles.card}>
+              <div 
+                className={styles.iconCircle} 
+                style={{ backgroundColor: achievement.color }}
+              >
+                <IconComponent className={styles.icon} />
               </div>
-            );
-          })}
-        </div>
+              <h3 className={styles.title}>
+                {achievement.title}
+              </h3>
+              <p className={styles.description}>
+                {achievement.description}
+              </p>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

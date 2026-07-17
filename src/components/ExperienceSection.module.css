@@ -1,3 +1,5 @@
+/* src/pages/ExperienceSection.module.css */
+
 .timelineWrapper {
   padding: 1rem;
   margin: 2.5rem auto 0 auto;
@@ -170,43 +172,6 @@
   letter-spacing: -0.01em;
 }
 
-.org {
-  font-size: 0.9375rem;
-  color: #4b5563;
-  margin-top: 0.25rem;
-  font-weight: 500;
-}
-
-.desc {
-  font-size: 0.9375rem;
-  color: #4b5563;
-  margin-top: 0.75rem;
-  line-height: 1.7;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .card {
-    padding: 1.25rem 1.5rem;
-  }
-}
-
-.viewLink {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #2563eb;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 0.875rem;
-  transition: all 0.2s ease;
-}
-
-.viewLink:hover {
-  color: #1d4ed8;
-  text-decoration: underline;
-  transform: translateX(2px);
-}
-
 .org,
 .orgLink {
   font-size: 0.9375rem;
@@ -225,3 +190,51 @@
   color: #2563eb;
 }
 
+.desc {
+  font-size: 0.9375rem;
+  color: #4b5563;
+  margin-top: 0.75rem;
+  line-height: 1.7;
+}
+
+.viewLink {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+.viewLink:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+  transform: translateX(2px);
+}
+
+/* Skills Container for Timeline Card */
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 12px 0;
+}
+
+.skillChip {
+  background-color: #f1f5f9;
+  color: #475569;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+  white-space: nowrap;
+}
+
+/* Responsive constraints for Card */
+@media (max-width: 768px) {
+  .card {
+    padding: 1.25rem 1.5rem;
+  }
+}

@@ -27,11 +27,11 @@ const ProjectDetail = () => {
       <h1 className={styles.title}>{project.title}</h1>
 
       <div className={styles.links}>
-        <a href={project.liveLink} target="_blank" rel="noreferrer">
-          🔗 Live Demo
+        <a href={project.liveLink} target="_blank" rel="noreferrer" className={styles.primaryLink}>
+          Live Demo
         </a>
-        <a href={project.githubLink} target="_blank" rel="noreferrer">
-          💻 GitHub
+        <a href={project.githubLink} target="_blank" rel="noreferrer" className={styles.outlineLink}>
+          GitHub
         </a>
       </div>
 
@@ -53,12 +53,8 @@ const ProjectDetail = () => {
 
       <div className={styles.section}>
         <h3>Challenges & Learnings</h3>
-        <p>{project.challenges}</p>
+        <p className={styles.para}>{project.challenges}</p>
       </div>
-
-{/*       <Link className={styles.backLink} to="/">
-        ← Back to Projects
-      </Link> */}
     </div>
   );
 };

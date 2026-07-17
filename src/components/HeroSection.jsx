@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styles from "./HeroSection.module.css";
-import profilePic from "../assets/profile.jpg";
 import pfp from "../assets/pfp.jpg";
 
 const HeroSection = () => {
@@ -13,13 +11,21 @@ const HeroSection = () => {
 
       <div className={styles.textContainer}>
         <h1 className={styles.heading}>
-          Hello, I am <span className={styles.nameHighlight}>Chirag</span>!
+          Hi, I'm <span className={styles.nameHighlight}>Chirag Malik</span>
         </h1>
+
+        {/* NEW: High-impact scannable title */}
+        <h2 className={styles.subHeading}>
+          Full-Stack Developer & Biomedical Engineer
+        </h2>
+
+        {/* REFRAMED: Clearer, stronger narrative */}
         <p className={styles.tagline}>
-          Full-Stack Web Developer focused on building clear and intuitive digital experiences.
-          <br />
-          Also a Physics Mentor who enjoys contributing to meaningful learning outcomes.
+          I build full-stack web applications, explore hands-on biomedical
+          research, and mentor students in physics. Currently in my fourth year
+          of an integrated dual degree at IIT (BHU)
         </p>
+
         <div className={styles.buttonGroup}>
           <a
             href="https://drive.google.com/file/d/1JGOhIphGOWqqOcVd8lVFgEV-b2jrakCZ/view?usp=drive_link"
@@ -27,7 +33,7 @@ const HeroSection = () => {
             rel="noopener noreferrer"
             className={`${styles.buttonBase} ${styles.primaryBtn}`}
           >
-            Resume
+            View Resume
           </a>
 
           <button
@@ -37,7 +43,7 @@ const HeroSection = () => {
               if (el) el.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            Connect
+            Let's Connect
           </button>
         </div>
       </div>

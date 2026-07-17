@@ -1,3 +1,5 @@
+/* src/pages/AboutMe.module.css */
+
 .section {
   padding: 1rem;
   margin: 2rem auto 0 auto;
@@ -19,9 +21,9 @@
 
 .heading {
   font-size: 2.25rem;
-  font-weight: 700;
+  font-weight: 800; /* Increased weight for consistency */
   margin-bottom: 1.5rem;
-  color: #1a1a1a;
+  color: #000000; /* Pure black */
   letter-spacing: -0.02em;
 }
 
@@ -37,13 +39,25 @@
   width: 100%;
 }
 
+/* Updated text styling for pure black readability and paragraph spacing */
 .text {
   font-size: 1.0625rem;
-  color: #4b5563;
-  line-height: 1.75;
-  margin: 0;
+  color: #000000; /* Pure black */
+  line-height: 1.8;
+  margin: 0 0 1.25rem 0; /* Added bottom margin for paragraph spacing */
   text-align: left;
   max-width: 100%;
+  letter-spacing: 0.01em;
+}
+
+/* Removes margin from the very last paragraph so it doesn't push the container height unnecessarily */
+.text:last-child {
+  margin-bottom: 0;
+}
+
+.text strong {
+  font-weight: 700;
+  color: #000000;
 }
 
 @media (min-width: 600px) {
@@ -57,6 +71,6 @@
   .text {
     font-size: 1.125rem;
     line-height: 1.85;
+    margin-bottom: 1.5rem;
   }
 }
-

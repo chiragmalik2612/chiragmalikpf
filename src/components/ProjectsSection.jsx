@@ -12,20 +12,22 @@ const ProjectsSection = () => {
       <div className={styles.grid}>
         {projects.map((proj, i) => (
           <div className={styles.card} key={i}>
-            <h3 className={styles.title}>{proj.title}</h3>
-            <div className={styles.chipContainer}>
-              {proj.techStack.map((tech, idx) => (
-                <span key={idx} className={styles.chip}>
-                  {tech}
-                </span>
-              ))}
+            <div>
+              <h3 className={styles.title}>{proj.title}</h3>
+              <div className={styles.chipContainer}>
+                {proj.techStack.map((tech, idx) => (
+                  <span key={idx} className={styles.chip}>
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <p className={styles.description}>{proj.description}</p>
             </div>
-            <p className={styles.description}>{proj.description}</p>
             <button
               className={styles.button}
               onClick={() => navigate(`/projects/${proj.slug}`)}
             >
-              View →
+              View Project →
             </button>
           </div>
         ))}
