@@ -11,7 +11,7 @@ const ContactSection = () => (
     <p className={styles.description}>
       I am always open to discussing new opportunities, collaborating on scalable 
       full-stack platforms, or geeking out over physics and biomedical research. 
-      My inbox is always open,let's build something impactful.
+      My inbox is always open , let's build something impactful.
     </p>
     
     <div className={styles.list}>

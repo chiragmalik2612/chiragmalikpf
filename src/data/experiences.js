@@ -17,6 +17,18 @@ import Q2 from "../assets/images/Q2.png";
 import Q3 from "../assets/images/Q3.png";
 import Q4 from "../assets/images/Q4.png";
 import Q5 from "../assets/images/Q5.png";
+import iitr1 from "../assets/images/iitr1.jpeg";
+import iitr2 from "../assets/images/iitr2.jpeg";
+import iitr3 from "../assets/images/iitr3.jpeg";
+import iitr4 from "../assets/images/iitr4.jpeg";
+import iitr5 from "../assets/images/iitr5.jpeg";
+import iitr6 from "../assets/images/iitr6.jpeg";
+import iitr7 from "../assets/images/iitr7.jpeg";
+import iitr8 from "../assets/images/iitr8.jpeg";
+import iitr9 from "../assets/images/iitr9.jpeg";
+import iitr10 from "../assets/images/iitr10.jpeg";
+import iitr11 from "../assets/images/iitr11.jpeg";
+import iitr12 from "../assets/images/iitr12.jpeg";
 
 export const experiences = [
   {
@@ -28,8 +40,8 @@ export const experiences = [
     type: "Intern",
     description: "Worked on a DRDO-sponsored project focusing on the downstream processing, purification, and hydrogel formulation of medical-grade collagen protein.",
     detailedDescription: `
-      <p>I worked onsite as a Summer Research Intern at IIT Roorkee, contributing to a DRDO-sponsored research initiative. My primary project was titled <strong>'Evaluation of Extraction and Purification of Type 1 Collagen from Porcine Skin with Comparative Characterisation of Extracted and Re-Extracted Collagen'</strong>.</p>
-      <p>The objective was to optimize the extraction process and formulate medical-grade collagen hydrogels for biomedical applications. During this period, I gained hands-on experience with advanced protein purification and characterization protocols.</p>
+      <p>I worked onsite as a Summer Research Intern at IIT Roorkee, contributing to a DRDO-sponsored research. My primary project was titled <strong>'Evaluation of Extraction and Purification of Type 1 Collagen from Porcine Skin with Comparative Characterisation of Extracted and Re-Extracted Collagen'</strong>.</p>
+      <p>The objective was to optimize the extraction/purification process and formulate medical-grade collagen hydrogels for biomedical applications. During this period, I gained hands-on experience with advanced protein purification and characterization protocols.</p>
       <p><strong>Key Responsibilities & Laboratory Work:</strong></p>
       <ul>
         <li>Executed downstream processing and purification of collagen protein.</li>
@@ -39,7 +51,7 @@ export const experiences = [
       <p>This role strengthened my wet-lab proficiency and gave me practical exposure to the rigorous standards required for medical-grade biomaterial development.</p>
     `,
     skills: ["Ion-exchange Chromatography", "SDS-PAGE", "Western Blot", "BCA Assay", "Protein Extraction", "CD Spectroscopy", "SEM Imaging", "Ultrafiltration"],
-    images: [],
+    images: [iitr1, iitr2, iitr3, iitr4, iitr5, iitr6, iitr7, iitr8, iitr9, iitr10, iitr11, iitr12], // Replace with your actual variables
   },
   {
     title: "Full Stack Web Developer",

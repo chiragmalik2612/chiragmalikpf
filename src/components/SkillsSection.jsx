@@ -37,6 +37,21 @@ const skillData = [
       "Google Sheets",
     ],
   },
+   {
+    category: "Research & Lab",
+    skills: [
+      "SDS-PAGE",
+      "Western Blot",
+      "Ion-exchange Chromatography",
+      "BCA Assay",
+      "CD Spectroscopy",
+      "SEM Imaging",
+      "Ultrafiltration",
+      "Docking",
+      "Lab-on-Chip",
+      "Microscopy",
+    ],
+  },
   {
     category: "Academic & Mentorship",
     skills: [
@@ -46,15 +61,7 @@ const skillData = [
       "Content Creation",
     ],
   },
-  {
-    category: "Research & Lab",
-    skills: [
-      "Lab-on-Chip",
-      "Microscopy",
-      "Lab Tools",
-      "NCBI Tools",
-    ],
-  },
+
 ];
 
 const SkillsSection = () => (
