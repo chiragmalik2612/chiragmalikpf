@@ -23,7 +23,7 @@ const HeroSection = () => {
         <p className={styles.tagline}>
           I build full-stack web applications, explore hands-on biomedical
           research, and mentor students in physics. Currently in my fourth year
-          of an integrated dual degree at IIT (BHU)
+          of an integrated dual degree at IIT (BHU), Varanasi
         </p>
 
         <div className={styles.buttonGroup}>
