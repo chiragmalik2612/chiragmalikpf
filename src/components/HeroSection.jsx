@@ -28,7 +28,7 @@ const HeroSection = () => {
 
         <div className={styles.buttonGroup}>
           <a
-            href="https://drive.google.com/file/d/1qmSjZFbmrf01rFbQg8NKCDwE8XznOOB0/view?usp=drive_link"
+            href="https://drive.google.com/file/d/10Sd3ds6kIi43_bqrLSzJXU1WMxKcTjIe/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className={`${styles.buttonBase} ${styles.primaryBtn}`}
