@@ -72,21 +72,21 @@ export const experiences = [
     skills: ["Next.js","Firebase","Typescript"],
     images: [],
   },
-  {
-    title: "Physics Mentor",
-    slug: "physics-mentor",
-    org: "SciAstra",
-    orgLink: "https://www.linkedin.com/company/sciastra/",
-    date: "Nov 2025 – Present",
-    type: "Content",
-    description: "Mentoring students in advanced physics concepts and providing structured doubt resolution.",
-    detailedDescription: `
-      <p>Currently working as a Physics Mentor at SciAstra, I assist students in strengthening their conceptual foundations in Physics. My day-to-day involves breaking down complex mechanics, electromagnetism, and thermodynamics problems into accessible, step-by-step explanations.</p>
-      <p>Beyond just solving equations, I focus on the underlying physical principles, helping students develop an intuitive understanding of the subject to improve their independent problem-solving capabilities.</p>
-    `,
-    skills: ["Physics Mentorship", "Concept Simplification", "Problem Solving", "Technical Communication"],
-    images: [],
-  },
+  // {
+  //   title: "Physics Mentor",
+  //   slug: "physics-mentor",
+  //   org: "SciAstra",
+  //   orgLink: "https://www.linkedin.com/company/sciastra/",
+  //   date: "Nov 2025 – Present",
+  //   type: "Content",
+  //   description: "Mentoring students in advanced physics concepts and providing structured doubt resolution.",
+  //   detailedDescription: `
+  //     <p>Currently working as a Physics Mentor at SciAstra, I assist students in strengthening their conceptual foundations in Physics. My day-to-day involves breaking down complex mechanics, electromagnetism, and thermodynamics problems into accessible, step-by-step explanations.</p>
+  //     <p>Beyond just solving equations, I focus on the underlying physical principles, helping students develop an intuitive understanding of the subject to improve their independent problem-solving capabilities.</p>
+  //   `,
+  //   skills: ["Physics Mentorship", "Concept Simplification", "Problem Solving", "Technical Communication"],
+  //   images: [],
+  // },
   {
     title: "SME - Physics",
     slug: "sme-physics",
